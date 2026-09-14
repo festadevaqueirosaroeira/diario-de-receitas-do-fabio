@@ -1,0 +1,14 @@
+{
+  "name": "Diário de Receitas do Fábio",
+  "short_name": "Diário do Fábio",
+  "description": "Um diário pessoal para guardar receitas, sabores e memórias.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#4b1e20",
+  "theme_color": "#4b1e20",
+  "lang": "pt-BR",
+  "icons": [
+    {"src":"assets/icon-app.jpg","sizes":"1024x1024","type":"image/jpeg","purpose":"any maskable"}
+  ]
+}
