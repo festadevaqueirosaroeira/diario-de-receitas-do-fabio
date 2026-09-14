@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://festadevaqueirosaroeira.github.io/diario-de-receitas-do-fabio/sitemap.xml
