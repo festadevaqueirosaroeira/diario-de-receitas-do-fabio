@@ -29,3 +29,23 @@
 }
 .audio-editor,.recipe-audio{background:#fbf5ef;border:1px solid var(--line);border-radius:10px;padding:15px;margin:16px 0}.audio-editor h3,.recipe-audio h3{font:700 18px 'Playfair Display';margin:0 0 5px}.audio-controls{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0}.audio-controls button{font-size:12px;padding:9px 11px}.audio-editor audio,.recipe-audio audio{width:100%;margin:8px 0}.audio-editor audio[hidden]{display:none}@media(max-width:650px){.audio-controls button{flex:1 1 42%;min-height:42px}}
 .audio-editor,.recipe-audio{background:#fbf5ef;border:1px solid var(--line);border-radius:10px;padding:15px;margin:16px 0}.audio-editor h3,.recipe-audio h3{font:700 18px 'Playfair Display';margin:0 0 5px}.audio-controls{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0}.audio-controls button{font-size:12px;padding:9px 11px}.audio-editor audio,.recipe-audio audio{width:100%;margin:8px 0}.audio-editor audio[hidden]{display:none}@media(max-width:650px){.audio-controls button{flex:1 1 42%;min-height:42px}}
+
+/* Ajuste de escala do menu lateral mobile: leitura maior sem rolagem interna */
+@media (max-width:650px){
+  .sidebar{padding:18px 14px 14px;overflow:hidden}
+  .sidebar .brand{padding:4px 10px 22px;gap:10px}
+  .sidebar .brand-mark{font-size:34px}
+  .sidebar .brand span{font-size:17px}
+  .sidebar .brand strong{font-size:23px}
+  .sidebar .main-nav{gap:3px}
+  .sidebar .nav-item{min-height:45px;padding:10px 12px;gap:12px;font-size:14px;line-height:1.2}
+  .sidebar .nav-item:first-letter{font-size:18px}
+}
+@media (max-height:680px) and (max-width:650px){
+  .sidebar{padding-top:10px}
+  .sidebar .brand{padding-bottom:12px}
+  .sidebar .brand-mark{font-size:29px}
+  .sidebar .brand span{font-size:14px}
+  .sidebar .brand strong{font-size:20px}
+  .sidebar .nav-item{min-height:38px;padding-top:7px;padding-bottom:7px;font-size:13px}
+}
