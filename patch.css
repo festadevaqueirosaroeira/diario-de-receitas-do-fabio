@@ -50,3 +50,4 @@
   .sidebar .nav-item{min-height:38px;padding-top:7px;padding-bottom:7px;font-size:13px}
 }
 .confirm-modal{max-width:430px;text-align:center}.confirm-modal h2{font-size:26px;color:var(--wine)}.confirm-message{font-size:15px;line-height:1.5;color:var(--muted);margin:14px 0 22px}.confirm-actions{display:flex;justify-content:center;gap:12px}.confirm-actions button{min-width:120px}
+.notice-modal,.input-modal{max-width:430px;text-align:center}.notice-modal h2,.input-modal h2{font-size:26px;color:var(--wine)}.input-modal input{font-size:16px;text-align:center}.notice-modal .full,.input-modal .full{margin-top:12px}
