@@ -27,3 +27,5 @@
   .sidebar .brand strong{font-size:19px}
   .sidebar .nav-item{min-height:32px;padding-top:5px;padding-bottom:5px}
 }
+.audio-editor,.recipe-audio{background:#fbf5ef;border:1px solid var(--line);border-radius:10px;padding:15px;margin:16px 0}.audio-editor h3,.recipe-audio h3{font:700 18px 'Playfair Display';margin:0 0 5px}.audio-controls{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0}.audio-controls button{font-size:12px;padding:9px 11px}.audio-editor audio,.recipe-audio audio{width:100%;margin:8px 0}.audio-editor audio[hidden]{display:none}@media(max-width:650px){.audio-controls button{flex:1 1 42%;min-height:42px}}
+.audio-editor,.recipe-audio{background:#fbf5ef;border:1px solid var(--line);border-radius:10px;padding:15px;margin:16px 0}.audio-editor h3,.recipe-audio h3{font:700 18px 'Playfair Display';margin:0 0 5px}.audio-controls{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0}.audio-controls button{font-size:12px;padding:9px 11px}.audio-editor audio,.recipe-audio audio{width:100%;margin:8px 0}.audio-editor audio[hidden]{display:none}@media(max-width:650px){.audio-controls button{flex:1 1 42%;min-height:42px}}
